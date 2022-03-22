@@ -1,5 +1,6 @@
 # jfrog-artifactory
 
+Get the Trial License Key: \
 https://jfrog.com/start-free/
 
 Start artifactory:
@@ -8,8 +9,8 @@ docker run -d \
   -p 8081:8081 \
   -p 8082:8082 \
   --name artifactory \
-  releases-docker.jfrog.io/jfrog/artifactory-oss
-  # releases-docker.jfrog.io/jfrog/artifactory-pro
+  releases-docker.jfrog.io/jfrog/artifactory-pro
+  # releases-docker.jfrog.io/jfrog/artifactory-oss # Open Source image (limited features)
 ```
 
 http://localhost:8082
