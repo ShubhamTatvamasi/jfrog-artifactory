@@ -8,3 +8,8 @@ docker run -d \
   --name artifactory \
   releases-docker.jfrog.io/jfrog/artifactory-oss
 ```
+
+Stop artifactory:
+```bash
+docker rm -f artifactory
+```
