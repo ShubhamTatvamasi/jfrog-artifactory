@@ -10,8 +10,8 @@ docker run -d \
   -p 8082:8082 \
   --name artifactory \
   releases-docker.jfrog.io/jfrog/artifactory-pro
-  # releases-docker.jfrog.io/jfrog/artifactory-oss # Open Source image (limited features)
 ```
+>  Use `releases-docker.jfrog.io/jfrog/artifactory-oss` docker image for Open Source version with limited features.
 
 http://localhost:8082
 
