@@ -12,7 +12,7 @@ docker run -d \
   # releases-docker.jfrog.io/jfrog/artifactory-pro
 ```
 
-http://localhost:8081
+http://localhost:8082
 
 ID: admin \
 Pass: password \
