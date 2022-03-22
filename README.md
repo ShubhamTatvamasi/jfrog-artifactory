@@ -9,13 +9,13 @@ docker run -d \
   releases-docker.jfrog.io/jfrog/artifactory-oss
 ```
 
-Stop artifactory:
-```bash
-docker rm -f artifactory
-```
-
 http://localhost:8081
 
 ID: admin \
 Pass: password \
 New Pass: Password1
+
+Remove artifactory:
+```bash
+docker rm -f artifactory
+```
