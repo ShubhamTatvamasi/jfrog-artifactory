@@ -1,6 +1,6 @@
 # jfrog-artifactory
 
-Get the 30 days Trial License Key: \
+Get the 30 days free Trial License Key: \
 https://jfrog.com/start-free/#hosted
 
 Start artifactory:
