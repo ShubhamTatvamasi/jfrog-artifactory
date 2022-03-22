@@ -1,7 +1,7 @@
 # jfrog-artifactory
 
 Get the Trial License Key: \
-https://jfrog.com/start-free/
+https://jfrog.com/start-free/#hosted
 
 Start artifactory:
 ```bash
