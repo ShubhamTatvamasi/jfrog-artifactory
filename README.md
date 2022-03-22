@@ -18,6 +18,15 @@ http://localhost:8082
 ID: admin \
 Pass: password
 
+
+Debian Artifact
+---|---
+Distribution | 
+Component | 
+Architecture | amd64
+
+
+
 Remove artifactory:
 ```bash
 docker rm -f artifactory
