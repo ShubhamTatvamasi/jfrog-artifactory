@@ -1,5 +1,7 @@
 # jfrog-artifactory
 
+https://jfrog.com/start-free/
+
 Start artifactory:
 ```bash
 docker run -d \
