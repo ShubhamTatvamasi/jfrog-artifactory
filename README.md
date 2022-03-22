@@ -13,3 +13,5 @@ Stop artifactory:
 ```bash
 docker rm -f artifactory
 ```
+
+http://localhost:8081
