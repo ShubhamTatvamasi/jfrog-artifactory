@@ -18,3 +18,4 @@ http://localhost:8081
 
 ID: admin \
 Pass: password
+New Pass: Password1
