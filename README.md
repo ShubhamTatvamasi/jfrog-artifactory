@@ -7,6 +7,7 @@ docker run -d \
   -p 8082:8082 \
   --name artifactory \
   releases-docker.jfrog.io/jfrog/artifactory-oss
+  # releases-docker.jfrog.io/jfrog/artifactory-pro
 ```
 
 http://localhost:8081
