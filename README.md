@@ -16,5 +16,5 @@ docker rm -f artifactory
 
 http://localhost:8081
 
-ID: admin
+ID: admin \
 Pass: password
