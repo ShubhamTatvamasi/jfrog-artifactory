@@ -19,10 +19,10 @@ ID: admin \
 Pass: password
 
 
-Debian Artifact
+Debian Artifact | .
 ---|---
-Distribution | 
-Component | 
+Distribution | focal
+Component | main
 Architecture | amd64
 
 
