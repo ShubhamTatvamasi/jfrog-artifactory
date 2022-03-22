@@ -16,8 +16,7 @@ docker run -d \
 http://localhost:8082
 
 ID: admin \
-Pass: password \
-New Pass: Password1
+Pass: password
 
 Remove artifactory:
 ```bash
