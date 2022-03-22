@@ -18,14 +18,15 @@ http://localhost:8082
 ID: admin \
 Pass: password
 
+### Debian Artifact
 
-Debian Artifact | .
+Property | Value
 ---|---
 Distribution | focal
 Component | main
 Architecture | amd64
 
-
+### Uninstall
 
 Remove artifactory:
 ```bash
