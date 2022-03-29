@@ -12,8 +12,8 @@ gpg --full-generate-key
 
 Parameter | Values
 ---|---
-key type | RSA and RSA
-keysize | 4096
+key type | ECC (sign and encrypt)
+keysize | Curve 25519
 valid till | 0
 Real name | artifactory.shubhamtatvamasi.com
 Email address |
