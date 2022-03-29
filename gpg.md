@@ -28,5 +28,9 @@ gpg --output public.artifactory.shubhamtatvamasi.com.pgp --armor --export artifa
 gpg --output private.artifactory.shubhamtatvamasi.com.pgp --armor --export-secret-key artifactory.shubhamtatvamasi.com
 ```
 
+Delete key:
+```bash
+gpg --delete-secret-keys artifactory.shubhamtatvamasi.com
+```
 
 
