@@ -25,6 +25,13 @@ Property | Value
 Distribution | focal
 Component | main
 Architecture | amd64
+
+#### For ARM:
+
+Property | Value
+---|---
+Distribution | focal
+Component | main
 Architecture | arm64
 
 ---
