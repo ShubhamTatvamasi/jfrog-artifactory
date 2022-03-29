@@ -34,6 +34,9 @@ Add public GPG key to ubuntu:
 ```bash
 curl -fsSL https://artifactory.shubhamtatvamasi.com/artifactory/api/security/keypair/rsa/public | \
   sudo gpg --dearmor -o /usr/share/keyrings/artifactory-shubhamtatvamasi-keyring.gpg
+
+# OR
+wget -qO - https://artifactory.shubhamtatvamasi.com/artifactory/api/security/keypair/rsa/public | sudo apt-key add -
 ```
 
 Add repo link:
