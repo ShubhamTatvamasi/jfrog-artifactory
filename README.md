@@ -28,6 +28,22 @@ Architecture | amd64
 
 ---
 
+### Repo
+
+Add public GPG key to ubuntu:
+```bash
+curl -fsSL https://artifactory.shubhamtatvamasi.com/artifactory/api/security/keypair/artifactory-gpg/public | \
+  sudo gpg --dearmor -o /usr/share/keyrings/artifactory-shubhamtatvamasi-keyring.gpg
+```
+
+Add repo link:
+```bash
+sudo echo "deb [arch=amd64 signed-by=/usr/share/keyrings/artifactory-shubhamtatvamasi-keyring.gpg] \
+  https://artifactory.shubhamtatvamasi.com/artifactory/ubuntu/ \
+  focal main" > /etc/apt/sources.list.d/artifactory.shubhamtatvamasi.list
+```
+
+
 ### Uninstall
 
 Remove artifactory:
