@@ -16,6 +16,8 @@ key type | RSA and RSA
 keysize | 4096
 valid till | 0
 Real name | artifactory.shubhamtatvamasi.com
+Email address |
+Comment |
 
 List all keys:
 ```bash
