@@ -22,5 +22,11 @@ List all keys:
 gpg --list-secret-keys
 ```
 
+Export public and private key
+```bash
+gpg --output public.artifactory.shubhamtatvamasi.com.pgp --armor --export artifactory.shubhamtatvamasi.com
+gpg --output private.artifactory.shubhamtatvamasi.com.pgp --armor --export-secret-key artifactory.shubhamtatvamasi.com
+```
+
 
 
