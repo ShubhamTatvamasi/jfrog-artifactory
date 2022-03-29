@@ -17,3 +17,10 @@ keysize | 4096
 valid till | 0
 Real name | artifactory.shubhamtatvamasi.com
 
+List all keys:
+```bash
+gpg --list-secret-keys
+```
+
+
+
