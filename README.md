@@ -25,6 +25,7 @@ Property | Value
 Distribution | focal
 Component | main
 Architecture | amd64
+Architecture | arm64
 
 ---
 
