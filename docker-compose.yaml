@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+
+  caddy:
+    image: caddy
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+
+  artifactory:
+    image: releases-docker.jfrog.io/jfrog/artifactory-pro
+    container_name: artifactory
+    restart: unless-stopped
+    volumes:
+      - artifactory_data:/var/opt/jfrog/artifactory
+
+volumes:
+  caddy_config:
+  caddy_data:
+  artifactory_data:

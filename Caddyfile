@@ -1,0 +1,3 @@
+artifactory.shubhamtatvamasi.com {
+  reverse_proxy artifactory:8082
+}
