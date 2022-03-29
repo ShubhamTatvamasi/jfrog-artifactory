@@ -26,19 +26,6 @@ Distribution | focal
 Component | main
 Architecture | amd64
 
-
-### GPG Key
-
-Install gpg package for macOS:
-```bash
-brew install gpg
-```
-
-Generate key:
-```bash
-gpg --full-generate-key
-```
-
 ---
 
 ### Uninstall
