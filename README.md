@@ -42,7 +42,7 @@ wget -qO - https://artifactory.shubhamtatvamasi.com/artifactory/api/security/key
 Add repo link:
 ```bash
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/artifactory-shubhamtatvamasi-keyring.gpg] \
-  https://artifactory.shubhamtatvamasi.com/artifactory/ubuntu/ \
+  https://artifactory.shubhamtatvamasi.com/artifactory/ubuntu \
   focal main" | sudo tee /etc/apt/sources.list.d/artifactory.shubhamtatvamasi.list > /dev/null
 
 # OR
